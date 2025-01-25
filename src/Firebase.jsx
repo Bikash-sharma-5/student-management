@@ -8,14 +8,14 @@ import { getDatabase, ref, onValue, set, push, remove } from "firebase/database"
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyB8-tHHYdCWlBe4rsm50zHoc63dxxHYwfM",
-  authDomain: "chat-add2a.firebaseapp.com",
-  projectId: "chat-add2a",
-  databaseURL: "https://chat-add2a-default-rtdb.firebaseio.com/",
-  storageBucket: "chat-add2a.firebasestorage.app",
-  messagingSenderId: "719206736436",
-  appId: "1:719206736436:web:e3e5adaef3546be8902061",
-  measurementId: "G-6PQG7SQQDV"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  databaseURL: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 const app = initializeApp(firebaseConfig);
