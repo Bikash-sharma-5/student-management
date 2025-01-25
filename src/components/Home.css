@@ -1,0 +1,111 @@
+.home-container {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .header {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .logout-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .form-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 700px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+  }
+  
+  .submit-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .student-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .student-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-card h4 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .student-card p {
+    margin: 5px 0;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  .student-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .student-card{
+    width: 400px;
+  }

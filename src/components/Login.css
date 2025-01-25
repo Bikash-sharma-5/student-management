@@ -1,0 +1,97 @@
+/* General container styling */
+.login-container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    font-family: "Arial", sans-serif;
+    color: #fff;
+  }
+  
+  /* Card styling for the login form */
+  .login-card {
+    background-color: #fff;
+    color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Header styling */
+  .login-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input styling */
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styling */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ff4b2b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #ff3a1a;
+  }
+  
+  /* Footer styling */
+  .login-footer {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .login-footer a {
+    color: #ff4b2b;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .login-card {
+      padding: 20px;
+      width: 90%;
+    }
+  
+    .login-header {
+      font-size: 20px;
+    }
+  
+    .login-input,
+    .login-button {
+      font-size: 14px;
+    }
+  
+    .login-footer {
+      font-size: 12px;
+    }
+  }
+  
